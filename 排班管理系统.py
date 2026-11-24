@@ -3,7 +3,7 @@
 餐饮/酒店排班管理系统 MVP
 Windows 桌面版；Python 3.10+；仅使用标准库。
 """
-import csv, json, random, sys
+import csv, json, random, sys,os
 from datetime import date, datetime, timedelta
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
